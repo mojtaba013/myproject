@@ -96,7 +96,7 @@ body {
 
 .nav-items {
   display: block;
- 
+
   margin-right: 0.5rem;
 }
 
@@ -388,11 +388,19 @@ body {
   grid-template-columns: repeat(1, minmax(0, 1fr));
   gap: 2.75rem;
 }
+.sec4-body {
+  padding-left: 1rem;
+  padding-right: 1rem;
+  flex-direction: column;
+  display: flex;
+}
 .product-container {
   display: flex;
   flex-direction: column;
-  --tw-shadow: 0 20px 25px -5px rgba(0,0,0,0.1),0 10px 10px -5px rgba(0,0,0,0.04);
-  box-shadow: var(--tw-ring-offset-shadow,0 0 transparent),var(--tw-ring-shadow,0 0 transparent),var(--tw-shadow);
+  --tw-shadow: 0 20px 25px -5px rgba(0, 0, 0, 0.1),
+    0 10px 10px -5px rgba(0, 0, 0, 0.04);
+  box-shadow: var(--tw-ring-offset-shadow, 0 0 transparent),
+    var(--tw-ring-shadow, 0 0 transparent), var(--tw-shadow);
 }
 .sec4-img {
   width: 100%;
@@ -709,22 +717,21 @@ body {
     margin-right: 1.5rem;
     display: inline-block;
   }
-  .nav-items a{
+  .nav-items a {
     display: block;
-    padding:0.5rem 0.75rem; 
+    padding: 0.5rem 0.75rem;
   }
   /* .nav-items:hover{
     border-radius: 0.5rem;
   } */
   .nav-items a:hover {
     border-radius: 0.5rem;
-    
+
     --tw-text-opacity: 1;
-    color: rgba(255,255,255,var(--tw-text-opacity));
+    color: rgba(255, 255, 255, var(--tw-text-opacity));
     --tw-bg-opacity: 1;
-    background-color: rgba(115,61,216,var(--tw-bg-opacity));
-   
-}
+    background-color: rgba(115, 61, 216, var(--tw-bg-opacity));
+  }
   .userAccount {
     padding: 0 0.5rem;
   }
@@ -819,9 +826,11 @@ body {
     grid-template-columns: repeat(3, minmax(0, 1fr));
     gap: 2.5rem;
   }
-  .product-container{
-    --tw-shadow: 0 20px 25px -5px rgba(0,0,0,0.1),0 10px 10px -5px rgba(0,0,0,0.04);
-    box-shadow: var(--tw-ring-offset-shadow,0 0 transparent),var(--tw-ring-shadow,0 0 transparent),var(--tw-shadow);
+  .product-container {
+    --tw-shadow: 0 20px 25px -5px rgba(0, 0, 0, 0.1),
+      0 10px 10px -5px rgba(0, 0, 0, 0.04);
+    box-shadow: var(--tw-ring-offset-shadow, 0 0 transparent),
+      var(--tw-ring-shadow, 0 0 transparent), var(--tw-shadow);
   }
   .section-five {
     max-width: 1280px;
